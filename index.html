@@ -10,5 +10,16 @@
     <p>Published from assignment
         <a href="https://classroom.github.com/a/pYRYiWvu">github assignment"</a>
     </p>
+    <p id=result> see result here! </p>
+
+    <script>
+        // Import an "add" function
+        import { add } from './mathmodule.js';
+        let result = add(2, 3);
+
+        // display result
+        elResult = document.getElementById("result");
+        elResult.innerHTML = "2 + 3 = " + result;
+    </script>
 </body>
 </html>
